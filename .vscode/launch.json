@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "server-agent Next.js: dev (run)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run dev",
+      "sourceMaps": true,
+      "sourceMapPathOverrides": {
+        "/turbopack/[project]/*": "${webRoot}/*"
+      }
+    }
+  ]
+}
